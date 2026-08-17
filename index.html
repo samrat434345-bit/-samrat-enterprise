@@ -108,10 +108,10 @@ footer{background:#080808;color:#aaa;padding:25px 0}.foot{display:flex;justify-c
 
 <script>
 const products=[
- ["product-1.jpg","দা / বটি","৳ 450"],["product-2.jpg","কাস্তে / কৃষি সরঞ্জাম","৳ 550"],
+ ["product-1.jpg","ছরতা/জাতি পাইকারী ","৳১২০ "],["product-2.jpg","ছোটো/ধামা/পাইকারী/KG ","৳420"],
  ["product-3.jpg","কারিগরি সরঞ্জাম","৳ 450"],["product-4.jpg","লোহার দা","৳ 450"],
- ["product-5.jpg","দা সেট","৳ 650"],["product-6.jpg","ডিজাইন দা","৳ 500"],
- ["product-7.jpg","ছুরি","৳ 250"],["product-8.jpg","লোহার সরঞ্জাম","৳ 450"]
+ ["product-5.jpg","দা সেট","৳ 650"],["product-6.jpg","ডিজাইন ধামা/পাইকারী/KG","৳ 350"],
+ ["product-7.jpg","ছুরি পাইকারী/পিছ","৳110"],["product-8.jpg","ধামা পাইকারী/KG","৳ 320"]
 ];
 function render(list=products){
  document.getElementById('productGrid').innerHTML=list.map(p=>`<article class="product"><img src="${p[0]}" alt="${p[1]}"><div class="pbody"><h3>${p[1]}</h3><div class="price">${p[2]}</div><a class="order" href="https://wa.me/8801575867747?text=${encodeURIComponent("আমি "+p[1]+" অর্ডার করতে চাই।")}" target="_blank">💬 WhatsApp-এ অর্ডার</a></div></article>`).join('');
