@@ -14,5 +14,3 @@ WhatsApp: https://wa.me/8801575867747
 
 Facebook Page URL আপনার কাছ থেকে পাওয়া গেলে সেটি সরাসরি যুক্ত করা যাবে।
 অনলাইনে প্রকাশ করতে GitHub Pages/যেকোনো static hosting-এ index.html এবং ছবিগুলো upload করুন।
-
-Facebook: https://www.facebook.com/share/198RZRDAVk/?mibextid=wwXIfr
